@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign-up form</title>
+  <title>Sign Up!</title>
 </head>
 <body>
     <div class="main-area">
@@ -39,36 +39,42 @@
             <fieldset>
               <div>
                 <label for="first_name">FIRST NAME</label>
-                <input type="text" name="first_name" id="">
+                <input type="text" name="first_name" id="" placeholder="Name" minlength="2" required>
+                <span></span>
               </div>
 
               <div>
                 <label for="last_name">LAST NAME</label>
-                <input type="text" name="last_name" id="">
+                <input type="text" name="last_name" id="" placeholder="Last Name" minlength="2" required>
+                <span></span>
               </div>
             </fieldset>
 
             <fieldset>
               <div>
                 <label for="user_email">EMAIL</label>
-                <input type="email" name="user_email" id="">
+                <input type="email" name="user_email" id="" placeholder="E-mail Address" required>
+                <span></span>
               </div>
 
               <div>
                 <label for="user_phone">TELEPHONE</label>
-                <input type="tel" name="user_phone" id="">
+                <input type="tel" name="user_phone" id="" placeholder="Telephone">
+                <span></span>
               </div>
             </fieldset>
 
             <fieldset>
               <div>
                 <label for="user_password">PASSWORD</label> 
-                <input type="password" name="user_password" id="">
+                <input type="password" name="user_password" id="" placeholder="Password" minlength="8" required>
+                <span></span>
               </div>
               
               <div>
                 <label for="user_confirm_password">CONFIRM PASSWORD</label>
-                <input type="password" name="user_confirm_password" id="">
+                <input type="password" name="user_confirm_password" id="" placeholder="Confirm Password" minlength="8" required>
+                <span></span>
               </div>
               </fieldset>
 
