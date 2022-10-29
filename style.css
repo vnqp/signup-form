@@ -107,6 +107,7 @@ body {
 
   box-shadow: 4px 5px 8px 3px #737572;
   padding-left: 100px;
+  padding-bottom: 20px;
 
   /* border-width: 3px 0px 3px 0px;
   border-style: solid;
@@ -125,9 +126,6 @@ fieldset {
   display: flex;
   border: 0;
   column-gap: 150px;
-}
-
-fieldset div {
 }
 
 fieldset div label {
@@ -174,10 +172,6 @@ input:invalid:not(:placeholder-shown):not(:focus) + span::before {
   position: absolute;
   content: "✖";
 }
-
-
-
-
 /* END OF SIGNUP FORM STYLES */
 
 .right-side-footer {
@@ -209,6 +203,4 @@ input:invalid:not(:placeholder-shown):not(:focus) + span::before {
   color: white;
   cursor: pointer;
 }
-
-
 /*END OF RIGHT SIDE STYLES */ 
